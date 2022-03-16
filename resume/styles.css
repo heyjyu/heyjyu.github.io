@@ -1,0 +1,204 @@
+* {
+  color: rgb(78, 78, 78);
+  letter-spacing: 0.07em;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+h2 {
+  margin: 0;
+  font-weight: 500;
+  color: rgb(0, 36, 66);
+}
+
+h4 {
+  margin: 0;
+  font-weight: 600;
+}
+
+section {
+  font-size: 1.1em;
+  margin: 4em 2em;
+}
+
+.row {
+  display: flex;
+}
+
+.column-1 {
+  flex: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em 1em;
+  background: linear-gradient(0deg, rgb(227, 243, 253) 10%, rgba(255,255,255,1) 100%);
+}
+
+.image-container {
+  margin: 1em;
+  width: 12em;
+  height: 12em;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.profile-image {
+  width: 12em;
+}
+
+.first-name {
+  font-weight: bold;
+}
+
+.name {
+  font-size: 2em;
+  display: inline;
+  margin: 0 1em 1em 1em;
+}
+
+.contact {
+  font-size: 1.2em;
+  text-align: center;
+  margin: 5em 0;
+}
+
+.contact > ul > li {
+  margin: 1em;
+}
+
+.personality {
+  font-size: 1.2em;
+  text-align: center;
+  margin: 2em 0;
+}
+
+.personality-bar-wrapper {
+  display: grid;
+  grid-template-columns: 5% 90% 5%;
+  justify-items: center;
+  margin: 0.5em;
+  padding: 0.2em;
+  vertical-align: middle;
+  width: 16em;
+}
+
+.personality-bar-container {
+  width: 80%;
+  background-color: white;
+  display: inline;
+  border-radius: 1em;
+}
+
+.EI {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 64%;
+  float: right;
+  background-color: rgb(78, 78, 78);;
+  border-radius: 1em;
+}
+
+.SN {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 51%;
+  background-color: rgb(78, 78, 78);;
+  border-radius: 1em;
+}
+
+.TF {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 51%;
+  background-color: rgb(78, 78, 78);;
+  border-radius: 1em;
+}
+
+.JP {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 61%;
+  background-color: rgb(78, 78, 78);;
+  border-radius: 1em;
+}
+
+.column-2 {
+  flex: 70%;
+  padding: 2em;
+}
+
+.about {
+  padding: 1em 0 0 1em;
+  margin: 0;
+  line-height: 1.5em;
+}
+
+.experience {
+  padding: 1em 0 0 1em;
+}
+
+.experience-description {
+  margin: 0.5em;
+}
+
+.experience-description > li {
+  font-size: 0.9em;
+  font-weight: 500;
+  margin: 0.3em;
+}
+
+.annotation-ai {
+  text-align: right;
+  display: flex;
+  justify-content: space-between;
+}
+
+.company-name, .company-period {
+  font-weight: bold;
+}
+
+.skills {
+  margin: 0;
+  padding: 1em 0 0 1em;
+}
+
+.skill-keywords {
+  font-size: 0.9em;
+}
+
+.skill-keywords > h4 {
+  margin: 0.5em 0;
+  font-weight: 600;
+}
+
+.skill-keywords > span {
+  font-size: 0.9em;
+  margin: 0.3em;
+  padding: 0.1em 0.3em;
+  background-color: aliceblue;
+  border: 1px solid black;
+  border-radius: 0.2em;
+}
+
+.education {
+  padding: 1em 0 0 1em;
+}
+
+.university {
+  text-align: right;
+  display: flex;
+  justify-content: space-between;
+}
+
+.university-name, .university-period {
+  font-weight: bold;
+}
+
